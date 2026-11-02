@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base oscura también durante el arranque, antes de que cargue Compose. -->
+    <style name="Theme.PrestaAula" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/prestaaula_window_background</item>
+        <item name="android:statusBarColor">@color/prestaaula_system_bar</item>
+        <item name="android:navigationBarColor">@color/prestaaula_system_bar</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+</resources>
